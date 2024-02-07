@@ -198,4 +198,9 @@
   --reaction-emoji-border-color: 1px solid transparent;
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+
+  div.name__8d1ec.overflow__87fe8 {
+    scale: 1.3; /*how much bigger you want the text to be 1.3 = 30 % bigger; worked great for me*/
+    transform: translate(20px); /*This moves the text over. After making it bigger it clips into the icons for the channel*/
+}
 }
